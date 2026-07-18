@@ -753,3 +753,114 @@ grid-template-columns:1fr;
 
 }
 
+/* CUSTOMER DASHBOARD */
+
+
+.customer-dashboard{
+
+padding:50px 8%;
+
+}
+
+
+
+.search-area{
+
+display:flex;
+
+gap:15px;
+
+background:white;
+
+padding:20px;
+
+border-radius:20px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+
+
+.search-area input,
+.search-area select{
+
+padding:15px;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+flex:1;
+
+}
+
+
+
+.professional-container{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:25px;
+
+}
+
+
+
+.professional-card{
+
+background:white;
+
+padding:30px;
+
+text-align:center;
+
+border-radius:20px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+
+
+.professional-card img{
+
+width:100px;
+
+height:100px;
+
+border-radius:50%;
+
+}
+
+
+
+.professional-card p{
+
+margin:10px;
+
+}
+
+
+
+@media(max-width:900px){
+
+.search-area{
+
+flex-direction:column;
+
+}
+
+
+.professional-container{
+
+grid-template-columns:1fr;
+
+}
+
+
+}
+
+
