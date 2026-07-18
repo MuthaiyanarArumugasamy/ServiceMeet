@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ServiceMeet Customer Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+Service<span>Meet</span>
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Bookings</a>
+<a href="#">Profile</a>
+</nav>
+
+</header>
+
+
+
+<section class="customer-dashboard">
+
+
+<h1>
+Find Your Professional
+</h1>
+
+
+
+<div class="search-area">
+
+<input 
+type="text" 
+placeholder="Search Electrician, Tutor, Doctor..."
+id="serviceSearch"
+>
+
+
+<select>
+
+<option>Select Location</option>
+<option>Chennai</option>
+<option>Bangalore</option>
+<option>Hyderabad</option>
+<option>Mumbai</option>
+
+</select>
+
+
+<button>
+Search
+</button>
+
+
+</div>
+
+
+
+
+
+<h2>
+Available Professionals
+</h2>
+
+
+
+<div class="professional-container">
+
+
+
+<div class="professional-card">
+
+
+<img src="https://via.placeholder.com/100">
+
+
+<h3>
+Arun Kumar
+</h3>
+
+
+<p>
+🔧 Electrician
+</p>
+
+
+<p>
+📍 Chennai
+</p>
+
+
+<p>
+⭐ 4.8 Rating</p>
+
+
+<p>
+Experience: 8 Years
+</p>
+
+
+<button onclick="bookService('Arun Kumar')">
+Book Now
+</button>
+
+
+</div>
+
+
+
+
+
+<div class="professional-card">
+
+
+<img src="https://via.placeholder.com/100">
+
+
+<h3>
+Priya Sharma
+</h3>
+
+
+<p>
+💻 Computer Repair
+</p>
+
+
+<p>
+📍 Chennai
+</p>
+
+
+<p>
+⭐ 4.9 Rating
+</p>
+
+
+<p>
+Experience: 6 Years
+</p>
+
+
+<button onclick="bookService('Priya Sharma')">
+Book Now
+</button>
+
+
+</div>
+
+
+
+
+
+
+<div class="professional-card">
+
+
+<img src="https://via.placeholder.com/100">
+
+
+<h3>
+Rajesh
+</h3>
+
+
+<p>
+👨‍🏫 Tutor
+</p>
+
+
+<p>
+📍 Chennai
+</p>
+
+
+<p>
+⭐ 4.7 Rating
+</p>
+
+
+<p>
+Experience: 10 Years
+</p>
+
+
+<button onclick="bookService('Rajesh')">
+Book Now
+</button>
+
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+<script>
+
+
+function bookService(name){
+
+alert(
+"Booking request sent to " + name
++
+". Choose date, time and meeting location."
+);
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
