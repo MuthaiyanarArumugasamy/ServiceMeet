@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ServiceMeet Login</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<section class="login-section">
+
+
+<div class="login-box">
+
+
+<h1>
+Service<span>Meet</span>
+</h1>
+
+
+<h2>
+Login
+</h2>
+
+
+
+<div class="role-buttons">
+
+<button onclick="showCustomer()">
+Customer
+</button>
+
+
+<button onclick="showProvider()">
+Service Provider
+</button>
+
+
+</div>
+
+
+
+<!-- Customer Login -->
+
+
+<div id="customer">
+
+
+<h3>
+Customer Login
+</h3>
+
+
+<input type="email" placeholder="Email">
+
+
+<input type="password" placeholder="Password">
+
+
+<button>
+Login
+</button>
+
+
+<p>
+New Customer? Register
+</p>
+
+
+</div>
+
+
+
+
+
+<!-- Provider Login -->
+
+
+<div id="provider" style="display:none;">
+
+
+<h3>
+Provider Login
+</h3>
+
+
+<input type="email" placeholder="Email">
+
+
+<input type="password" placeholder="Password">
+
+
+<button>
+Login
+</button>
+
+
+<p>
+New Provider? Register
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+<script>
+
+
+function showCustomer(){
+
+document.getElementById("customer").style.display="block";
+
+document.getElementById("provider").style.display="none";
+
+}
+
+
+
+function showProvider(){
+
+document.getElementById("customer").style.display="none";
+
+document.getElementById("provider").style.display="block";
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
