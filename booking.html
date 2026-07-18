@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ServiceMeet Booking</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+Service<span>Meet</span>
+</div>
+
+</header>
+
+
+
+
+<section class="booking-section">
+
+
+<h1>
+Book Your Service
+</h1>
+
+
+<div class="booking-box">
+
+
+
+<h2>
+Professional Details
+</h2>
+
+
+<div class="provider-info">
+
+<h3>
+Arun Kumar
+</h3>
+
+<p>
+🔧 Electrician
+</p>
+
+<p>
+⭐ 4.8 Rating
+</p>
+
+</div>
+
+
+
+
+
+<h2>
+Select Date & Time
+</h2>
+
+
+<input type="date">
+
+
+<select>
+
+<option>Select Time</option>
+
+<option>9:00 AM</option>
+
+<option>12:00 PM</option>
+
+<option>3:00 PM</option>
+
+<option>6:00 PM</option>
+
+</select>
+
+
+
+
+<h2>
+Meeting Location
+</h2>
+
+
+<input 
+type="text"
+placeholder="Enter your address"
+>
+
+
+<button onclick="locationFind()">
+Use Current Location 📍
+</button>
+
+
+
+<h2>
+Payment Method
+</h2>
+
+
+<div class="payment">
+
+<label>
+<input type="radio" name="pay">
+UPI
+</label>
+
+
+<label>
+<input type="radio" name="pay">
+Card
+</label>
+
+
+<label>
+<input type="radio" name="pay">
+Cash After Service
+</label>
+
+
+</div>
+
+
+
+
+<button class="confirm"
+onclick="confirmBooking()">
+
+Confirm Booking
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+<script>
+
+
+function locationFind(){
+
+alert(
+"Location access enabled. Finding your current location..."
+);
+
+}
+
+
+
+function confirmBooking(){
+
+alert(
+"Booking confirmed! Professional will contact you soon."
+);
+
+}
+
+
+
+</script>
+
+
+</body>
+
+</html>
