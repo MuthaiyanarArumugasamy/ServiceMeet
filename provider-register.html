@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Service Provider Registration</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<section class="register-section">
+
+
+<div class="register-box">
+
+
+<h1>
+Join Service<span>Meet</span>
+</h1>
+
+
+<h2>
+Provider Registration
+</h2>
+
+
+<input id="name" type="text" placeholder="Full Name">
+
+
+<input id="email" type="email" placeholder="Email">
+
+
+<input id="phone" type="tel" placeholder="Phone Number">
+
+
+
+<select id="service">
+
+
+<option>Select Service Category</option>
+
+<option>Electrician</option>
+
+<option>Plumber</option>
+
+<option>Cleaning</option>
+
+<option>Computer Repair</option>
+
+<option>Tutor</option>
+
+<option>Beauty Service</option>
+
+<option>Photography</option>
+
+<option>Driver</option>
+
+</select>
+
+
+
+
+<input id="experience" 
+type="number"
+placeholder="Experience (Years)">
+
+
+
+<input id="location"
+type="text"
+placeholder="Your Location">
+
+
+
+<input id="price"
+type="number"
+placeholder="Starting Price">
+
+
+
+<button onclick="registerProvider()">
+
+Create Provider Profile
+
+</button>
+
+
+
+</div>
+
+
+</section>
+
+
+
+<script src="firebase-config.js"></script>
+
+<script src="provider.js"></script>
+
+
+</body>
+
+</html>
