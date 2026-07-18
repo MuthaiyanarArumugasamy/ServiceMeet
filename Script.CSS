@@ -578,3 +578,100 @@ nav{
 
 
 }
+
+/* LOGIN PAGE */
+
+
+.login-section{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+background:linear-gradient(
+135deg,
+#dbeafe,
+#ecfdf5
+);
+
+}
+
+
+
+.login-box{
+
+background:white;
+
+padding:40px;
+
+width:400px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+}
+
+
+
+.login-box h1{
+
+color:#2563eb;
+
+}
+
+
+
+.login-box span{
+
+color:#16a34a;
+
+}
+
+
+
+.login-box input{
+
+width:100%;
+
+padding:15px;
+
+margin:10px 0;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+}
+
+
+
+.role-buttons{
+
+display:flex;
+
+gap:10px;
+
+justify-content:center;
+
+margin:20px;
+
+}
+
+
+
+.login-box p{
+
+margin-top:20px;
+
+color:#666;
+
+}
+
+
