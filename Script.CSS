@@ -863,4 +863,102 @@ grid-template-columns:1fr;
 
 }
 
+/* BOOKING PAGE */
+
+
+.booking-section{
+
+padding:50px 8%;
+
+background:#f7f9fc;
+
+}
+
+
+
+.booking-section h1{
+
+text-align:center;
+
+}
+
+
+
+.booking-box{
+
+max-width:600px;
+
+margin:auto;
+
+background:white;
+
+padding:35px;
+
+border-radius:20px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+
+
+.booking-box input,
+.booking-box select{
+
+width:100%;
+
+padding:15px;
+
+margin:10px 0;
+
+border:1px solid #ddd;
+
+border-radius:10px;
+
+}
+
+
+
+.provider-info{
+
+background:#eff6ff;
+
+padding:20px;
+
+border-radius:15px;
+
+}
+
+
+
+.payment{
+
+display:flex;
+
+gap:15px;
+
+flex-direction:column;
+
+margin:20px 0;
+
+}
+
+
+
+.confirm{
+
+width:100%;
+
+background:#16a34a;
+
+}
+
+
+
+.confirm:hover{
+
+background:#15803d;
+
+}
+
 
